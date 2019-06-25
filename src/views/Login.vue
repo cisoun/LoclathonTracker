@@ -11,9 +11,12 @@
         <input type="password" class="form-control" id="formPassword" :placeholder="$t('password')">
       </div>
       <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="formRememberMe">
-        <label class="form-check-label" for="formRememberMe">{{ $t('pages.register.remember_me') }}</label>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="formRememberMe">
+          <label class="custom-control-label" for="formRememberMe">{{ $t('pages.register.remember_me') }}</label>
+        </div>
       </div>
+
       <button type="submit" class="btn btn-outline-primary btn-block">{{ $t('pages.login.submit') }}</button>
     </form>
   </div>
