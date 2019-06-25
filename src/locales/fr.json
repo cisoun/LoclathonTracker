@@ -1,0 +1,24 @@
+{
+  "hello": "Hello !",
+  "login": "Connexion",
+  "password": "Mot de passe",
+
+  "pages": {
+    "login": {
+      "submit": "Se connecter",
+      "title": "Connexion"
+    },
+    "register": {
+      "enter_fullname": "Entrez votre nom complet...",
+      "enter_nickname": "Entrez un pseudo...",
+      "remember_me": "Se souvenir de moi",
+      "title": "Inscription",
+      "submit": "S'inscrire"
+    }
+  },
+
+  "user": {
+    "nickname": "Pseudo",
+    "fullname": "Nom complet"
+  }
+}
