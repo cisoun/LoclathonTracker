@@ -1,6 +1,10 @@
 <template>
-  <div class="main">
-    <slot/>
+  <div class="main container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-4">
+        <slot/>
+      </div>
+    </div>
   </div>
 </template>
 
